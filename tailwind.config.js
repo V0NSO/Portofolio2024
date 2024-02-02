@@ -9,10 +9,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#ffbe0b",
-        mydark: "#202020",
-        bglight: "#f8f9fa",
-        secDark: "#343a40",
+        primary: "#ED7D31",
+        mydark: "#3652AD",
+        bglight: "#280274",
+        secDark: "#E9F6FF",
       },
       fontFamily: {
         viga: ["Viga"],

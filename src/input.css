@@ -68,8 +68,8 @@ nav ul .group:hover::after {
 
 .hero-image {
   @apply  rounded-full  dark:bg-primary bg-primary;
-  /* box-shadow: 8px 8px #ffbe0b; */
-  border: 2px solid #ffbe0b;
+  /* box-shadow: 8px 8px #FE7A36; */
+  border: 2px solid #FE7A36;
 }
 
 
@@ -91,7 +91,7 @@ nav ul .group:hover::after {
 /* portofolio slider */
 .portofolio::after {
   @apply absolute top-0 block h-full w-full;
-  background-image: linear-gradient(to top, #ffbe0ba5, rgba(0, 0, 0, 0.532));
+  background-image: linear-gradient(to top, #FE7A36a5, rgba(0, 0, 0, 0.532));
   z-index: -9999999;
   content: "";
 }
@@ -306,16 +306,16 @@ transform : scale(40);
 /*end portofolio slider */
 
 .btn-shadow {
-  box-shadow: 0.3rem 0.3rem #ffbe0b;
-  border: 1px solid #ffbe0b;
+  box-shadow: 0.3rem 0.3rem #FE7A36;
+  border: 1px solid #FE7A36;
 }
 .btn-shadow:hover {
   transform: translate(0.12rem, 0.12rem);
-  box-shadow: 0.2rem 0.2rem #ffbe0b;
+  box-shadow: 0.2rem 0.2rem #FE7A36;
 }
 .btn-shadow:active {
   transform: translate(0.125rem, 0.125rem);
-  box-shadow: 0.2rem 0.2rem #ffbe0b;
+  box-shadow: 0.2rem 0.2rem #FE7A36;
 }
 
 /* LOADING ANIMATION */
@@ -326,7 +326,7 @@ transform : scale(40);
 .spinner .rec5,
 .spinner .rec6 {
   @apply rounded-full;
-  background-color: #ffbe0b;
+  background-color: #FE7A36;
   height: 100%;
   width: 6px;
   display: inline-block;
